@@ -1,0 +1,8 @@
+---
+layout: post
+title: Hello World
+body_id: post
+---
+
+This is my blog. Welcome to my blog.
+3

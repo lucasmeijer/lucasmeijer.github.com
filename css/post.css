@@ -1,0 +1,10 @@
+div.highlight {
+  background-color: #F5F2DF;
+  font-family: consolas, 'lucida console', 'bitstream vera sans mono', 'courier new', monospace;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+ul, ol {
+  padding-left: 30px;
+}
