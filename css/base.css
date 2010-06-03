@@ -6,7 +6,7 @@ body {
 }
 
 div#wrapper {
-  width: 900px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -26,3 +26,6 @@ p, ul, ol, dl, pre, blockquote, table, form {
   margin: 20px 0;
 }
 
+ul, ol {
+  padding-left: 30px;
+}

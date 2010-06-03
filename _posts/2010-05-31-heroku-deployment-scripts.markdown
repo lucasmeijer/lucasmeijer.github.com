@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Heroku Deploy Script
-body_id: post
 ---
-
-## Why?
 
 I love heroku. Their elegant 'git push' deployment process is an effective way to deploy code. However, for all it's elegance, things start to break down once you want to do some more advanced things that capistrano easily took care of. 
 
