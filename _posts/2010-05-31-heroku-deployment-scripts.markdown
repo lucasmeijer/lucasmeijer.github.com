@@ -139,6 +139,5 @@ Notes:
   * Extend with task overriding
 
 
+<!-- ref 1 http://jqr.github.com/2009/04/25/deploying-multiple-environments-on-heroku -->
 
-------
-ref 1 http://jqr.github.com/2009/04/25/deploying-multiple-environments-on-heroku

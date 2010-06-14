@@ -12,18 +12,20 @@ div#wrapper {
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 170%;
 }
 
 h2 {
-  font-size: 130%;
+  font-size: 150%;
+  color: #235179;
+  text-shadow: #fff 0 1px 0;
 }
 
 h3 {
-  font-size: 115%;
+  font-size: 135%;
 }
 
-p, ul, ol, dl, pre, blockquote, table, form {
+p, ul, ol, dl, pre, blockquote, table, form, div.highlight {
   margin: 20px 0;
 }
 
@@ -44,4 +46,12 @@ a:visited {
 
 a:hover {
   border-bottom: 3px solid #333;
+}
+
+div#footer {
+  text-align: center;
+  color: #908F84;
+  border-top: 1px solid #C9C9BC;
+  font-size: 17px;
+  text-shadow: #fff 0 1px 0;
 }
