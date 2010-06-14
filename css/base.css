@@ -1,8 +1,9 @@
 body {
   background-color: #FCF8E5;
   color: #333;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.5;
+  font-family: 'Myriad Pro', Corbel, 'Helvetica Neue', Helvetica, 'Lucida Grande', Verdana,sans-serif;
 }
 
 div#wrapper {
@@ -28,4 +29,19 @@ p, ul, ol, dl, pre, blockquote, table, form {
 
 ul, ol {
   padding-left: 30px;
+}
+
+p {
+  text-shadow: #fff 0 1px 0;
+}
+
+a, 
+a:visited {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+}
+
+a:hover {
+  border-bottom: 3px solid #333;
 }
