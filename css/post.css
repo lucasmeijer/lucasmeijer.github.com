@@ -1,9 +1,14 @@
 body#post div.highlight {
+  overflow: auto;
   background-color: #F5F2DF;
+  line-height: 1.2em;
+  margin: 20px 0;
+}
+
+code {
+  text-shadow: none !important;
   font-family: consolas, 'lucida console', 'bitstream vera sans mono', 'courier new', monospace;
   font-size: 16px;
-  line-height: 1.2em;
-  overflow: auto;
 }
 
 body#post div#header {
@@ -29,6 +34,5 @@ body#post div#header .date {
 
 body#post h1 {
   font-size: 300%;
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  text-shadow: #fff 0 1px 0;
+  color: #333;
 }

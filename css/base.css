@@ -4,6 +4,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   font-family: 'Myriad Pro', Corbel, 'Helvetica Neue', Helvetica, 'Lucida Grande', Verdana,sans-serif;
+  text-shadow: #fff 0px 1px 1px;
 }
 
 div#wrapper {
@@ -11,30 +12,29 @@ div#wrapper {
   margin: 0 auto;
 }
 
+h1, h2, h3 {
+  color: #235179;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 h1 {
-  font-size: 170%;
+  font-size: 200%;
 }
 
 h2 {
-  font-size: 150%;
-  color: #235179;
-  text-shadow: #fff 0 1px 0;
+  font-size: 160%;
 }
 
 h3 {
-  font-size: 135%;
+  font-size: 125%;
 }
 
-p, ul, ol, dl, pre, blockquote, table, form, div.highlight {
+p, ul, ol, dl, pre, blockquote, table, form {
   margin: 20px 0;
 }
 
 ul, ol {
   padding-left: 30px;
-}
-
-p {
-  text-shadow: #fff 0 1px 0;
 }
 
 a, 
@@ -53,5 +53,4 @@ div#footer {
   color: #908F84;
   border-top: 1px solid #C9C9BC;
   font-size: 17px;
-  text-shadow: #fff 0 1px 0;
 }
