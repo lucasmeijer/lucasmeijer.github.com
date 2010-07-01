@@ -1,13 +1,75 @@
 ---
+body_id: welcome
 layout: default
 title: Michael Dwan
 ---
 
-<ul>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<style type="text/css" media="screen">
+  h1 {
+    text-align: center;
+    font-size: 400%;
+  }
+  
+  section {
+    text-align: center;
+    width: 600px;
+    overflow: auto;
+    margin: 20px auto;
+  }
+  
+  section#about {
+    text-align: left;
+  }
+  
+  section#about p {
+    float: right;
+    width: 400px;
+  }
+  
+  section#about img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    border: 1px solid #111;
+    padding: 2px;
+  }
+  
+  footer {
+    color: #ccc;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+</style>
+
+
+<header>
+  <h1>Michael Dwan</h1>
+</header>
+<section id="about">
+  <img src="images/me.jpeg"/>
+  <p>
+    This is a little bit about me. It will introduce stuff like where I live and what I do.
+  </p>
+</section>
+<section>
+  You can follow me on 
+  <a href="http://www.twitter.com/michaeldwan">Twitter</a>, 
+  <a href="http://www.github.com/michaeldwan">GitHub</a>, 
+  <a href="http://www.facebook.com/michaeldwan">Facebook</a>.
+</section>
+<section>
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+<footer>
+  <p>Copyright 2010 by Michael Dwan</p>
+</footer>
 
