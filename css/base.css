@@ -1,32 +1,23 @@
 body {
-  background-color: #E37B1E;
+/*  background-color: #E37B1E;*/
 /*  color: #65360D;*/
-	
   font-size: 18px;
   line-height: 1.5;
 	font-family: 'Droid Serif', Georgia, serif;
-/*  text-shadow: #fff 0px 1px 1px;*/
-}
-
-.wrapper {
-	display: block;
-}
-
-
-h1, h2, h3 {
-/*  color: #235179;*/
-  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 h1 {
+  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 200%;
 }
 
 h2 {
+  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 160%;
 }
 
 h3 {
+  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 125%;
 }
 

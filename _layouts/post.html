@@ -2,19 +2,20 @@
 layout: default
 body_id: post
 ---
-<header class="wrapper">
+
+<article>
   <div class="content">
-    <p><a href="/">Michael Dwan</a></p>
-    <h1>{{ page.title }}</h1>
-    <p class="date">{{ page.date | date: "%A, %B %d, %Y" }}</p>
+    <header>
+      <p><a href="/">Michael Dwan</a></p>
+      <h1>{{ page.title }}</h1>
+      <p class="date">{{ page.date | date: "%A, %B %d, %Y" }}</p>
+    </header>
+    <section>
+      {{ content }}
+    </section>
   </div>
-</header>
-<section class="wrapper">
-  <div class="content">
-    {{ content }}
-  </div>
-</section>
-<footer class="wrapper">
+</article>
+<footer>
   <div class="content">
     <p>Copyright 2010 by Michael Dwan</p>
   </div>

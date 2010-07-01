@@ -1,22 +1,29 @@
-
-#post header {
-	background-color: #BCD279;
+body#post {
+  background-color: #191919;
 }
 
-#post header .content {
+#post article {
+  background-color: #B3C873;
+}
+
+#post article .content {
 	background-color: #ECF2D9;
+	color: #2A2522;
+	padding: 0;
+	width: 950px;
+}
+
+#post header {
 	text-align: center;
 	padding: 20px 50px 10px;
 }
 
-
-#post section {
-	background-color: #BCD279;
+#post header p {
+  margin: 0;
 }
 
-#post section .content {
-	background-color: #ECF2D9;
-	color: #2A2522;
+#post section {
+  padding: 10px 50px 50px;
 }
 
 #post footer {
@@ -26,25 +33,24 @@
 
 #post footer .content {
 	background-color: #262626;
+	text-align: center;
+	color: #75796C;
 }
 
 .content {
 	width: 850px;
 	margin: 0 auto;
-	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
 	padding: 50px;
 }
-
-
-
-
 
 body#post div.highlight {
   overflow: auto;
   background-color: #F4F9EC;
   line-height: 1.2em;
   margin: 20px 0;
+  border: 1px dashed #9CAE64;
 }
 
 code {
@@ -59,9 +65,9 @@ blockquote {
 
 body#post h1 {
   font-size: 250%;
-  color: #333;
 }
 
-body#post p object {
+/*body#post p object {
   margin: 0 auto;
 }
+*/
