@@ -1,5 +1,13 @@
 #post {
-  background-color: #191919;
+  background-color: #E3B561;
+}
+
+#post .content {
+	width: 850px;
+	margin: 0 auto;
+	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+	padding: 50px;
 }
 
 #post article {
@@ -26,25 +34,6 @@
   padding: 10px 50px 50px;
 }
 
-#post footer {
-	border-top: 1px solid #111;
-	background-color: #191919;
-}
-
-#post footer .content {
-	background-color: #262626;
-	text-align: center;
-	color: #75796C;
-}
-
-#post .content {
-	width: 850px;
-	margin: 0 auto;
-	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-	padding: 50px;
-}
-
 #post div.highlight {
   overflow: auto;
   background-color: #F4F9EC;
@@ -62,30 +51,60 @@
   margin: auto 30px;
 }
 
-
-body#post h1 {
+#post h1 {
   font-size: 250%;
 }
 
 #post aside {
-  border-top: 1px solid #AF8C4B;
-  background-color: #E3B561;
-/*  background-color: #E37B1E;*/
-  color: #65360D;
+  border-top: 1px solid #281F0D;
+  background-color: #281F0D;
+  color: #CBC7BB;
 }
 
 #post aside .content {
-  background-color: #F2E2B9;
+  background-color: #3B3127;
   padding: 50px;
- 	width: 850px; 
+  width: 850px; 
 }
+
+#post aside a {
+  color: #CBC7BB;
+  border-bottom: 1px dotted #CBC7BB;
+}
+
+#post aside a:hover {
+  border-bottom: 1px solid #CBC7BB;
+}
+
+
+
+
 
 #disqus_thread h3 {
-  font-size: 200% !important;
+  font-size: 225% !important;
 }
 
-#post aside a.dsq-brlink {
+#disqus_thread a.dsq-brlink {
   display: none;
 }
 
+#disqus_thread .dsq-dc-logo {
+  display: none; 
+} 
+
+#disqus_thread .dsq-options {
+  display: none;
+}
+
+
+#post footer {
+    border-top: 1px solid #AF8C4B;
+    background-color: #E3B561;
+    color: #65360D;
+}
+
+#post footer .content {
+  background-color: #F2E2B9;
+  text-align: center;
+}
 
