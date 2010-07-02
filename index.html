@@ -35,7 +35,7 @@ title: Michael Dwan
   
   #welcome section {
     text-align: center;
-    width: 600px;
+    width: 675px;
     margin: 20px auto;
   }
   
@@ -43,7 +43,6 @@ title: Michael Dwan
     margin-top: 0;
     text-align: left;
     display: table;
-    width: 675px;
   }
   
   #welcome #about:after {
@@ -66,6 +65,8 @@ title: Michael Dwan
     float: left;
     padding: 5px;
     background-color: #f5f5f5;
+    -moz-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
   }
   
   #welcome #about p {
@@ -75,7 +76,7 @@ title: Michael Dwan
 
   #welcome #about em {
     font-family: 'Reenie Beanie';
-    font-size: 150%;
+    font-size: 170%;
     border-bottom: 1px dashed #62868E;
     text-shadow: none;
     padding: 1px 5px 0;
@@ -107,7 +108,7 @@ title: Michael Dwan
   #welcome li.article h3 {
     display: table-cell;
     vertical-align: middle;
-    width: 425px;
+/*    width: 425px;*/
     padding: 10px;
   }
     
@@ -128,7 +129,7 @@ title: Michael Dwan
 </header>
 <section id="about">
   <div id="mugshot">
-    <img src="images/me.jpeg"/>
+    <img src="images/me.jpg"/>
   </div>
   <p>
     Hello. My name is <em>Michael Dwan</em>. I'm a <em>web developer/designer</em> living in <em>Chicago</em>. I'm a lover of <em>design, startups, technology, &amp; metal</em>. When not changing the world, I enjoy <em>photography, golf, &amp; hiking</em>.
@@ -145,7 +146,7 @@ title: Michael Dwan
   <ul>
   {% for post in site.posts %}
     <li class="article">
-      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+      <p>{{ post.date | date: "%b %d, %Y" }}</p>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     </li>
   {% endfor %}
