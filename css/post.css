@@ -1,4 +1,4 @@
-body#post {
+#post {
   background-color: #191919;
 }
 
@@ -37,7 +37,7 @@ body#post {
 	color: #75796C;
 }
 
-.content {
+#post .content {
 	width: 850px;
 	margin: 0 auto;
 	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
@@ -45,7 +45,7 @@ body#post {
 	padding: 50px;
 }
 
-body#post div.highlight {
+#post div.highlight {
   overflow: auto;
   background-color: #F4F9EC;
   line-height: 1.2em;
@@ -53,12 +53,12 @@ body#post div.highlight {
   border: 1px dashed #9CAE64;
 }
 
-code {
+#post code {
   font-family: consolas, 'lucida console', 'bitstream vera sans mono', 'courier new', monospace;
   font-size: 16px;
 }
 
-blockquote {
+#post blockquote {
   margin: auto 30px;
 }
 
@@ -67,7 +67,25 @@ body#post h1 {
   font-size: 250%;
 }
 
-/*body#post p object {
-  margin: 0 auto;
+#post aside {
+  border-top: 1px solid #AF8C4B;
+  background-color: #E3B561;
+/*  background-color: #E37B1E;*/
+  color: #65360D;
 }
-*/
+
+#post aside .content {
+  background-color: #F2E2B9;
+  padding: 50px;
+ 	width: 850px; 
+}
+
+#disqus_thread h3 {
+  font-size: 200% !important;
+}
+
+#post aside a.dsq-brlink {
+  display: none;
+}
+
+
