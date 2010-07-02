@@ -3,7 +3,7 @@ body_id: welcome
 layout: default
 title: Michael Dwan
 ---
-
+<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
 <style type="text/css" media="screen">
   body#welcome { 
     background-color: #61AFBB;
@@ -12,6 +12,12 @@ title: Michael Dwan
     font-size: 18px;
   }
   
+  #welcome a, 
+  #welcome a:visited {
+    color: #333;
+    border-color: #333;
+  }
+
   #welcome h1 {
     margin: 50px auto;
     text-align: center;
@@ -21,7 +27,7 @@ title: Michael Dwan
   }
   
   #welcome h2 {
-    margin: 25px auto;
+    margin: 50px auto 20px;
     font-size: 200%;
     text-shadow: 2px 2px 0 #2E545A;
     color: #f5f5f5;
@@ -33,11 +39,11 @@ title: Michael Dwan
     margin: 20px auto;
   }
   
-  #welcome section#about {
+  #welcome #about {
     text-align: left;
   }
   
-  #welcome section#about:after {
+  #welcome #about:after {
       content: ".";
       display: block;
       height: 0;
@@ -45,20 +51,34 @@ title: Michael Dwan
       visibility: hidden;
   }
   
-  #welcome section#about p {
-    margin-left: 190px;
+  #welcome #about em {
+      font-family: 'Reenie Beanie';
+      font-size: 150%;
+      border-bottom: 1px dashed #62868E;
+      text-shadow: none;
+      padding: 1px 5px 0;
+  }
+
+  #welcome #about #mugshot {
+    display: table-cell;
+    vertical-align: middle;
+    width: 200px;
+  }
+
+  #welcome #about p {
+    display: table-cell;
+    vertical-align: middle;
   }
   
-  #welcome section#about img {
+  #welcome #about img {
     height: 150px;
     width: 150px;
     float: left;
-    border: 2px solid #1F2D33;
     padding: 5px;
     background-color: #f5f5f5;
   }
   
-  #welcome section#articles ul {
+  #welcome #articles ul {
     text-align: left;
     list-style-type: none;
     padding: 0;
@@ -91,17 +111,6 @@ title: Michael Dwan
     width: 600px;
     margin: 20px auto;
   }
-  
-  #welcome a, 
-  #welcome a:visited {
-    color: #333;
-    border-color: #333;
-  }
-
-  #welcome a:hover {
-  }
-  
-  
 </style>
 
 
@@ -109,17 +118,17 @@ title: Michael Dwan
   <h1>Michael Dwan</h1>
 </header>
 <section id="about">
-  <div id="avatar">
+  <div id="mugshot">
     <img src="images/me.jpeg"/>
   </div>
   <p>
-    This is a little bit about me. It will introduce stuff like where I live and what I do.
+    Hello. My name is <em>Michael Dwan</em>. I am <em>a web developer/designer</em> living in <em>Chicago</em>. I'm a lover of <em>design, startups, technology, &amp; metal</em>. When not changing the world, I enjoy <em>photography, golf, &amp; hiking</em>.
   </p>
 </section>
 <section>
-  You can follow me on 
+  You should follow me on 
   <a href="http://www.twitter.com/michaeldwan">Twitter</a>, 
-  <a href="http://www.github.com/michaeldwan">GitHub</a>, 
+  <a href="http://www.github.com/michaeldwan">GitHub</a>, and
   <a href="http://www.facebook.com/michaeldwan">Facebook</a>.
 </section>
 <section id="articles">

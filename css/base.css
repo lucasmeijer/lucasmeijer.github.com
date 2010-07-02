@@ -32,8 +32,6 @@ ul, ol {
 a, 
 a:visited {
   color: #333;
-/*  text-decoration: underline;*/
-
   text-decoration: none;
   border-bottom: 1px dotted #333;
 }
