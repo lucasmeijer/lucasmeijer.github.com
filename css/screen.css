@@ -30,21 +30,21 @@ header, section, footer, aside, nav, article, figure {
 body {
   font-size: 18px;
   line-height: 1.5;
-	font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'Antic Slab', serif;
 }
 
 h1 {
-  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Antic Slab', serif;
   font-size: 200%;
 }
 
 h2 {
-  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 160%;
+   font-family: 'Antic Slab', serif;
+   font-size: 160%;
 }
 
 h3 {
-  font-family: 'Vollkorn', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Antic Slab', serif;
   font-size: 125%;
 }
 
@@ -56,11 +56,12 @@ ul, ol {
   padding-left: 60px;
 }
 
-a, 
+a { color: #f5f5f5; }
+
+a,
 a:visited {
-  color: #333;
+  color: #f5f5f5;
   text-decoration: none;
-  border-bottom: 1px dotted #333;
 }
 
 a:hover {
@@ -87,12 +88,6 @@ strong {
   font-size: 18px;
 }
 
-#welcome a, 
-#welcome a:visited {
-  color: #333;
-  border-color: #333;
-}
-
 #welcome h1 {
   margin: 50px auto 20px;
   text-align: center;
@@ -110,7 +105,7 @@ strong {
 
 #welcome section {
   text-align: center;
-  width: 675px;
+  width: 845px;
   margin: 20px auto;
 }
 
@@ -127,8 +122,8 @@ strong {
 }
 
 #welcome #about img {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 200px;
   float: left;
   padding: 5px;
   background-color: #f5f5f5;
@@ -139,6 +134,7 @@ strong {
 #welcome #about p {
   display: table-cell;
   vertical-align: middle;
+  padding: 10px;
 }
 
 #welcome #about em {
